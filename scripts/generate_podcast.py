@@ -3,27 +3,13 @@
 Daily podcast generation script.
 
 Modes (selected with --mode):
-  audio  - read input/narration.txt, call OpenAI TTS, enforce the duration
-           limit (speeding up slightly if needed), write output/<file>.mp3
-           and output/episode-meta.json.
+  audio  - read input/narration.txt, call OpenAI TTS in chunks (to stay
+           under the API's per-request input limit), concatenate the audio,
+           enforce the duration limit (speeding up slightly if needed), and
+           write output/<file>.mp3 and output/episode-meta.json.
   prune  - delete old GitHub Release assets beyond EPISODES_TO_KEEP.
   feed   - rebuild docs/feed.xml and docs/podcast-history.json from the
            current GitHub Release assets.
-
-Environment variables (set by the workflow):
-  OPENAI_API_KEY        secret, only needed for --mode audio
-  OPENAI_TTS_VOICE
-  PODCAST_TITLE
-  PODCAST_AUTHOR
-  PODCAST_DESCRIPTION
-  EPISODES_TO_KEEP
-  MAX_NARRATION_WORDS
-  MAX_DURATION_SECONDS
-  MAX_SPEEDUP
-  RELEASE_TAG
-  EPISODE_PREFIX
-  GITHUB_REPOSITORY     "owner/repo", set automatically by GitHub Actions
-  GH_TOKEN              set automatically by GitHub Actions (for gh CLI)
 """
 
 import argparse
@@ -31,6 +17,7 @@ import datetime
 import email.utils
 import json
 import os
+import re
 import subprocess
 import sys
 import xml.sax.saxutils as saxutils
@@ -44,6 +31,11 @@ HISTORY_PATH = os.path.join(DOCS_DIR, "podcast-history.json")
 
 TTS_MODEL = "gpt-4o-mini-tts"
 TTS_URL = "https://api.openai.com/v1/audio/speech"
+
+# OpenAI's TTS endpoint rejects requests whose input exceeds ~2000 tokens.
+# Czech text tokenizes at roughly 1.5-2 tokens per word, so we keep each
+# chunk well under that ceiling by limiting words per chunk.
+CHUNK_MAX_WORDS = 700
 
 
 def env(name, default=None, required=False):
@@ -59,6 +51,28 @@ def today_str():
 
 def word_count(text):
     return len(text.split())
+
+
+def split_into_chunks(text, max_words=CHUNK_MAX_WORDS):
+    """Split narration into TTS-sized chunks without cutting mid-sentence."""
+    sentences = re.split(r"(?<=[.!?])\s+", text.strip())
+    chunks = []
+    current = []
+    current_words = 0
+    for sentence in sentences:
+        if not sentence:
+            continue
+        w = word_count(sentence)
+        if current and current_words + w > max_words:
+            chunks.append(" ".join(current))
+            current = [sentence]
+            current_words = w
+        else:
+            current.append(sentence)
+            current_words += w
+    if current:
+        chunks.append(" ".join(current))
+    return [c for c in chunks if c.strip()]
 
 
 def ffprobe_duration(path):
@@ -110,6 +124,41 @@ def call_openai_tts(narration_text, voice, api_key, out_path):
         f.write(response.content)
 
 
+def synthesize_full_narration(narration, voice, api_key, raw_path):
+    chunks = split_into_chunks(narration)
+    print(f"Narration split into {len(chunks)} TTS chunk(s)")
+
+    if len(chunks) == 1:
+        call_openai_tts(chunks[0], voice, api_key, raw_path)
+        return
+
+    chunk_paths = []
+    for i, chunk in enumerate(chunks):
+        chunk_path = os.path.join(OUTPUT_DIR, f"chunk_{i:02d}.mp3")
+        print(f"Synthesizing chunk {i + 1}/{len(chunks)} ({word_count(chunk)} words)")
+        call_openai_tts(chunk, voice, api_key, chunk_path)
+        chunk_paths.append(chunk_path)
+
+    concat_list_path = os.path.join(OUTPUT_DIR, "concat_list.txt")
+    with open(concat_list_path, "w", encoding="utf-8") as f:
+        for p in chunk_paths:
+            f.write(f"file '{os.path.abspath(p)}'\n")
+
+    subprocess.run(
+        [
+            "ffmpeg", "-y", "-f", "concat", "-safe", "0",
+            "-i", concat_list_path,
+            "-c:a", "libmp3lame", "-q:a", "2",
+            raw_path,
+        ],
+        check=True, capture_output=True,
+    )
+
+    for p in chunk_paths:
+        os.remove(p)
+    os.remove(concat_list_path)
+
+
 def mode_audio():
     if not os.path.exists(NARRATION_PATH):
         sys.exit(f"Narration file not found: {NARRATION_PATH}")
@@ -133,7 +182,7 @@ def mode_audio():
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     raw_path = os.path.join(OUTPUT_DIR, "raw.mp3")
-    call_openai_tts(narration, voice, api_key, raw_path)
+    synthesize_full_narration(narration, voice, api_key, raw_path)
 
     duration = ffprobe_duration(raw_path)
     max_duration = float(env("MAX_DURATION_SECONDS", "600"))
@@ -221,9 +270,6 @@ def mode_feed():
     owner, repo_name = repo.split("/")
     pages_url = f"https://{owner}.github.io/{repo_name}/"
 
-    # Merge with any existing per-episode metadata we still have on disk
-    # (today's episode-meta.json). Older episodes fall back to a
-    # best-effort record derived from the release asset alone.
     today_meta = {}
     if os.path.exists(META_PATH):
         with open(META_PATH, "r", encoding="utf-8") as f:
