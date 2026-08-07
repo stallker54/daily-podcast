@@ -1,1 +1,167 @@
-[]
+[
+  {
+    "event_id": "fed-hawkish-dissent-2026",
+    "reported_date": "2026-08-07",
+    "event_date": "2026-08-01",
+    "category": "Macro, rates & inflation",
+    "entities": ["Federal Reserve", "USD"],
+    "event_type": "rate_decision",
+    "canonical_summary": "Three Fed regional presidents publicly urged further rate hikes rather than cuts, the first three-way hawkish dissent since 2016, with new Fed Chair Warsh also striking a hawkish tone.",
+    "source_url": "https://en.sedaily.com/international/2026/08/01/three-fed-officials-publicly-urge-rate-hike-as-inflation",
+    "material_update_of": null
+  },
+  {
+    "event_id": "ez-flash-cpi-jul26",
+    "reported_date": "2026-08-07",
+    "event_date": "2026-07-31",
+    "category": "Macro, rates & inflation",
+    "entities": ["European Central Bank", "Eurozone", "EUR"],
+    "event_type": "inflation_data",
+    "canonical_summary": "Eurozone flash HICP inflation accelerated to 2.9% y/y in July (core 2.5%), driven by rising energy prices, raising the odds of further ECB tightening at the September meeting.",
+    "source_url": "https://www.euronews.com/business/2026/07/31/eurozone-inflation-hits-29-which-countries-saw-the-biggest-increases",
+    "material_update_of": null
+  },
+  {
+    "event_id": "sp500-record-high-hormuz-deescalation",
+    "reported_date": "2026-08-07",
+    "event_date": "2026-08-04",
+    "category": "Public equities & broad markets",
+    "entities": ["S&P 500", "Dow Jones Industrial Average", "Iran", "United States"],
+    "event_type": "index_move",
+    "canonical_summary": "The S&P 500 closed above 7,700 and the Dow topped 54,000 for the first time as markets rallied on progress toward a US-Iran deal to reopen the Strait of Hormuz to shipping.",
+    "source_url": "https://www.cnbc.com/2026/08/03/stock-market-today-live-updates.html",
+    "material_update_of": null
+  },
+  {
+    "event_id": "ai-capex-sentiment-shift",
+    "reported_date": "2026-08-07",
+    "event_date": "2026-08-05",
+    "category": "Public equities & broad markets",
+    "entities": ["AMD", "Nvidia", "Alphabet"],
+    "event_type": "sector_rotation",
+    "canonical_summary": "AMD shares fell sharply post-earnings despite a revenue beat, signaling a market shift from AI-buildout growth narrative toward scrutiny of AI capex discipline and returns.",
+    "source_url": "https://nai500.com/blog/2026/08/revenue-soars-stocks-plunge-amd-and-spacex-flash-the-same-warning-on-ai-capex/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "deutsche-telekom-buyback-increase",
+    "reported_date": "2026-08-07",
+    "event_date": "2026-08-06",
+    "category": "Public equities & broad markets",
+    "entities": ["Deutsche Telekom"],
+    "event_type": "buyback",
+    "canonical_summary": "Deutsche Telekom's board raised its 2026 share buyback by up to 3 billion euros, to as much as 5 billion euros total, explicitly to address a depressed share price.",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-08-06/deutsche-telekom-raises-2026-share-buyback-by-up-to-3-billion",
+    "material_update_of": null
+  },
+  {
+    "event_id": "cnb-holds-rate-signals-more-hikes",
+    "reported_date": "2026-08-07",
+    "event_date": "2026-08-06",
+    "category": "Real estate",
+    "entities": ["Czech National Bank", "Czech Republic"],
+    "event_type": "rate_decision",
+    "canonical_summary": "The Czech National Bank unanimously held its base rate at 3.75% but flagged that persistent core inflation and a tight labor market make at least one more hike likely before year-end, while cutting its 2026 growth forecast to 2.2%.",
+    "source_url": "https://zpravy.kurzy.cz/870586-cnb-na-srpnovem-zasedani-ponechava-urokove-sazby-beze-zmeny/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "cz-apartment-prices-reaccelerate",
+    "reported_date": "2026-08-07",
+    "event_date": "2026-08-01",
+    "category": "Real estate",
+    "entities": ["Czech Republic", "Prague"],
+    "event_type": "price_trend",
+    "canonical_summary": "Czech flat prices rose 2.7% q/q in Q1 2026, reaccelerating despite high mortgage rates, with new-build prices in Prague 7 and Prague 8 up as much as 25% y/y.",
+    "source_url": "https://www.e15.cz/finexpert/bydleni/kde-byty-zdrazuji-nejrychleji-v-praze-7-a-8-roste-cena-tempem-az-25-procent-rocne-1430021",
+    "material_update_of": null
+  },
+  {
+    "event_id": "europe-cre-refinancing-wall",
+    "reported_date": "2026-08-07",
+    "event_date": "2026-08-03",
+    "category": "Real estate",
+    "entities": ["Germany", "Western Europe", "European banks"],
+    "event_type": "structural_risk",
+    "canonical_summary": "Industry estimates point to 750 billion to 1 trillion euros of Western European commercial real estate refinancing due by 2030, with Germany alone facing roughly 260 billion euros in maturities, compounded by mandatory energy-efficiency upgrade deadlines through 2033.",
+    "source_url": "https://www.vaasblock.com/news/commercial-real-estate-office-distress-regional-banks-2026/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "clarity-act-senate-delay",
+    "reported_date": "2026-08-07",
+    "event_date": "2026-08-06",
+    "category": "Cryptocurrency & digital assets",
+    "entities": ["US Senate", "CLARITY Act"],
+    "event_type": "regulatory_change",
+    "canonical_summary": "The US Senate confirmed it will not vote on the CLARITY Act crypto market-structure bill before its August recess, pushing the effort to define SEC/CFTC jurisdiction over digital assets to mid-September at the earliest.",
+    "source_url": "https://www.coindesk.com/policy/2026/08/06/senate-won-t-vote-on-crypto-clarity-act-before-its-summer-break",
+    "material_update_of": null
+  },
+  {
+    "event_id": "russia-comprehensive-crypto-law-signed",
+    "reported_date": "2026-08-07",
+    "event_date": "2026-08-04",
+    "category": "Cryptocurrency & digital assets",
+    "entities": ["Russia", "Vladimir Putin"],
+    "event_type": "regulatory_change",
+    "canonical_summary": "Putin signed Russia's first comprehensive crypto law, establishing central-bank-licensed exchanges, a retail investment cap, and legalized crypto-based cross-border trade settlement starting September, while keeping domestic crypto payments banned.",
+    "source_url": "https://www.blockhead.co/2026/08/06/putin-signs-russias-first-full-crypto-law/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "bitcoin-etf-inflow-trend-reversal",
+    "reported_date": "2026-08-07",
+    "event_date": "2026-08-05",
+    "category": "Cryptocurrency & digital assets",
+    "entities": ["BlackRock IBIT", "Fidelity FBTC", "US spot Bitcoin ETFs"],
+    "event_type": "etf_flow",
+    "canonical_summary": "US spot Bitcoin ETFs logged 626 million dollars in net inflows over the first three trading days of August, ending a run that included July's worst monthly outflows of 2026.",
+    "source_url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/60992849/bitcoin-etf-inflows-pick-up-to-626m-in-three-days-as-crypto-exec-says-zero-bank-liquidity-era-is-ending",
+    "material_update_of": null
+  },
+  {
+    "event_id": "copper-tariff-supply-shock",
+    "reported_date": "2026-08-07",
+    "event_date": "2026-08-05",
+    "category": "Alternative & real assets",
+    "entities": ["Copper", "United States", "Freeport-McMoRan", "Chile"],
+    "event_type": "commodity_supply_shock",
+    "canonical_summary": "US copper hit a record price as a 50% US tariff on semi-finished copper products drove import hoarding just as mine supply was constrained in Indonesia and hit by storms in Chile.",
+    "source_url": "https://www.mining.com/copper-price-sets-fresh-us-record-as-tariff-driven-hoarding-meets-shrinking-supply/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "central-bank-gold-buying-record-q2",
+    "reported_date": "2026-08-07",
+    "event_date": "2026-08-02",
+    "category": "Alternative & real assets",
+    "entities": ["Poland", "World Gold Council", "central banks"],
+    "event_type": "central_bank_gold_buying",
+    "canonical_summary": "Central banks bought a record 289 tonnes of gold in Q2 2026, up 62% y/y and led by Poland, with gold now exceeding US Treasuries as a share of global official reserves.",
+    "source_url": "https://www.nation.com.pk/02-Aug-2026/global-gold-demand-remains-stable-q2",
+    "material_update_of": null
+  },
+  {
+    "event_id": "haleu-smr-fuel-supply-buildout",
+    "reported_date": "2026-08-07",
+    "event_date": "2026-08-06",
+    "category": "Alternative & real assets",
+    "entities": ["X-Energy", "Centrus Energy"],
+    "event_type": "infrastructure_deal",
+    "canonical_summary": "X-Energy and Centrus signed a long-term enriched nuclear fuel supply agreement for small modular reactors, part of a wave of nuclear-fuel deals driven by surging AI data-center power demand.",
+    "source_url": "https://www.globenewswire.com/news-release/2026/08/06/3340195/0/en/X-energy-Centrus-Sign-HALEU-Supply-Agreement-for-Xe-100-Advanced-Small-Modular-Reactor-Development.html",
+    "material_update_of": null
+  },
+  {
+    "event_id": "ddog-record-drop-despite-beat-raise",
+    "reported_date": "2026-08-07",
+    "event_date": "2026-08-06",
+    "category": "Opportunistic short/medium-term situations",
+    "entities": ["Datadog"],
+    "event_type": "post_selloff_opportunity",
+    "canonical_summary": "Datadog shares fell nearly 20%, their largest single-day drop on record, despite beating Q2 estimates and raising full-year guidance, as investors fixated on one large AI customer signaling reduced usage for H2.",
+    "source_url": "https://www.fool.com/coverage/stock-market-today/2026/08/06/stock-market-today-aug-6-datadog-plummets-19-leading-software-stock-slide/",
+    "material_update_of": null
+  }
+]

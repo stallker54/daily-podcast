@@ -1,1 +1,29 @@
-Toto je zástupný text. Claude Routine ho při prvním běhu přepíše skutečnou denní narací.
+Tři regionální šéfové americké centrální banky Fed veřejně vyzvali k dalšímu zvyšování sazeb, což je poprvé od roku 2016, kdy se objevila taková trojice disentů, a i nový šéf Fedu na poslední tiskové konferenci působil nečekaně jestřábím tónem. Trh tak začíná počítat s tím, že cyklus snižování sazeb v USA může být letos odložen, případně i obrácen, což by prodloužilo dobu vyšších výnosů dluhopisů i dražších úvěrů.
+
+Inflace v eurozóně v červenci zrychlila na 2,9 procenta a jádrová inflace bez potravin a energií zůstala na 2,5 procenta, tedy dál nad cílem Evropské centrální banky. Ta tak bude na svém zářijovém zasedání pod tlakem znovu zvážit další utahování měnové politiky, místo aby cyklus zvyšování sazeb považovala za u konce.
+
+Index S&P 500 se poprvé v historii dostal nad 7700 bodů a Dow Jones překročil 54 tisíc bodů poté, co se objevily náznaky dohody mezi USA a Íránem o znovuotevření Hormuzského průlivu pro lodní dopravu. Trvalé snížení geopolitického rizika v této klíčové ropné tepně by mohlo z akciových trhů na roky odstranit část rizikové prémie.
+
+Akcie čipové společnosti AMD po výsledcích propadly zhruba o sedm procent, přestože firma překonala odhady tržeb. Investoři začínají místo čistého růstu investic do umělé inteligence sledovat spíš to, jestli se tyto obrovské výdaje skutečně vyplatí.
+
+Deutsche Telekom zvýšil letošní zpětný odkup akcií až o tři miliardy eur, celkem tak může letos odkoupit akcie za pět miliard eur. Vedení firmy odkup navyšuje výslovně proto, aby podpořilo podle něj podhodnocenou akcii.
+
+Česká národní banka na svém srpnovém zasedání jednomyslně, poměrem sedm ku nule, ponechala základní sazbu na 3,75 procenta, ale zároveň upozornila, že vzhledem k jádrové inflaci a napjatému trhu práce je do konce roku pravděpodobné ještě jedno zvýšení, a zároveň snížila odhad letošního růstu ekonomiky na 2,2 procenta. Snížení sazeb, na které čekali čeští žadatelé o hypotéku, se tak zase odsouvá.
+
+Ceny bytů v Česku se podle statistik za první čtvrtletí znovu zrychlují, meziročně nejvíc v pražských čtvrtích Praha 7 a Praha 8, kde nové byty zdražují až o pětadvacet procent. Trh tak dál roste i přes vysoké hypoteční sazby, hlavně kvůli přetrvávajícímu nedostatku nabídky.
+
+Podle odhadů čeká evropský komerční nemovitostní trh do roku 2030 refinancování dluhu v objemu sedm set padesát miliard až jednoho bilionu eur, jen v Německu má jít o zhruba dvě stě šedesát miliard a kapitálovou mezeru přes sedmdesát sedm miliard eur. Tlak zesilují i povinné energetické renovace budov s termínem do roku 2033, takže napětí ve financování kancelářských a komerčních nemovitostí by se mělo mezi lety 2026 a 2028 dál stupňovat.
+
+Americký Senát potvrdil, že zákon CLARITY, který má jasně rozdělit dohled nad kryptoměnami mezi burzovní a komoditní regulátory, nestihne projednat před letní přestávkou a hlasování se odkládá minimálně na polovinu září. Nejistota kolem právního rámce pro digitální aktiva v USA tak potrvá o něco déle.
+
+Rusko podepsalo svůj první komplexní zákon o kryptoměnách, který od září zavádí licencované burzy pod dohledem centrální banky, roční limit pro drobné investory a legalizuje využití kryptoměn při zahraničním obchodu, byť platby kryptoměnami uvnitř země zůstávají zakázané. Jde o trvalý právní rámec, který může hrát roli i v debatách o obcházení sankcí.
+
+Do amerických spotových bitcoinových fondů začaly po slabém červenci, který byl nejhorším měsícem roku podle výběrů peněz, znovu proudit peníze, za první tři srpnová obchodní dny přitekly přes šest set milionů dolarů. I přesto zůstává třicetidenní bilance toků výrazně záporná, ale trend naznačuje, že institucionální zájem o bitcoin přes regulované fondy se znovu probouzí.
+
+Cena mědi v USA vystoupala na rekordní úroveň poté, co americké clo padesát procent na polotovary z mědi vyvolalo hromadění zásob a zároveň těžbu omezily problémy v Indonésii a bouře v Chile. Strukturální nedostatek klíčového kovu pro elektrifikaci a rozvod energie tak může trvat déle, než se čekalo.
+
+Centrální banky ve druhém čtvrtletí nakoupily rekordních dvě stě osmdesát devět tun zlata, meziročně o šedesát dva procent víc, v čele s Polskem. Zlato tak už podle Světové zlaté rady tvoří větší podíl globálních rezerv než americké státní dluhopisy, což potvrzuje dlouhodobý trend odklonu centrálních bank od dolaru.
+
+Firmy X-Energy a Centrus podepsaly dlouholetou dodavatelskou smlouvu na obohacené jaderné palivo pro malé modulární reaktory, součást širší vlny dohod v jaderném sektoru vyvolané rostoucí poptávkou po elektřině pro datacentra umělé inteligence. Dodávky paliva a nová obohacovací kapacita se tak zajišťují už na roky dopředu.
+
+Akcie softwarové firmy Datadog propadly o téměř dvacet procent, což je její nejhorší den v historii, přestože firma čtvrtletní výsledky překonala a zvýšila výhled. Trh tak silně zareagoval na varování, že jeden velký klient plánuje ve druhém pololetí omezit využívání služby, což může být jen krátkodobá nadměrná reakce, kterou by mohla vyvrátit už zářijová čísla.
