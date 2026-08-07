@@ -1,0 +1,109 @@
+name: Publish daily podcast
+
+on:
+  push:
+    branches:
+      - claude/podcast-state
+    paths:
+      - input/narration.txt
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+env:
+  TZ: Europe/Prague
+  PODCAST_TITLE: "Investování s rozhledem"
+  PODCAST_AUTHOR: "Ondra"
+  PODCAST_DESCRIPTION: "Denní přehled novinek z investování do akcií, nemovitostí, kryptoměn a dalších aktiv, s důrazem na dlouhý horizont. Hlas je generován umělou inteligencí (OpenAI text-to-speech)."
+  OPENAI_TTS_VOICE: "cedar"
+  EPISODES_TO_KEEP: "7"
+  MAX_NARRATION_WORDS: "1200"
+  MAX_DURATION_SECONDS: "600"
+  MAX_SPEEDUP: "1.15"
+  RELEASE_TAG: "daily-podcast"
+  EPISODE_PREFIX: "daily-investing"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout claude/podcast-state
+        uses: actions/checkout@v4
+        with:
+          ref: claude/podcast-state
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install Python dependencies
+        run: pip install --disable-pip-version-check requests
+
+      - name: Generate episode audio
+        id: audio
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python scripts/generate_podcast.py --mode audio
+
+      - name: Create rolling release (if missing)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ! gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            gh release create "$RELEASE_TAG" \
+              --title "$PODCAST_TITLE" \
+              --notes "Rolling release holding the latest $EPISODES_TO_KEEP episodes." \
+              --repo "$GITHUB_REPOSITORY"
+          fi
+
+      - name: Upload new episode asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          FILENAME=$(python -c "import json;print(json.load(open('output/episode-meta.json'))['filename'])")
+          gh release upload "$RELEASE_TAG" "output/$FILENAME" \
+            --repo "$GITHUB_REPOSITORY" --clobber
+
+      - name: Prune old release assets beyond retention limit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python scripts/generate_podcast.py --mode prune
+
+      - name: Build RSS feed and podcast history
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python scripts/generate_podcast.py --mode feed
+
+      - name: Commit updated feed and history
+        run: |
+          git config user.name "podcast-bot"
+          git config user.email "podcast-bot@users.noreply.github.com"
+          git add docs/feed.xml docs/podcast-history.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update podcast feed [skip ci]"
+            git push origin claude/podcast-state
+          else
+            echo "No feed changes to commit"
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
