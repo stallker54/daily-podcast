@@ -12,10 +12,10 @@
     <item>
       <title>Investování s rozhledem – 2026-08-07</title>
       <description>Denní přehled novinek z investování do akcií, nemovitostí, kryptoměn a dalších aktiv, s důrazem na dlouhý horizont. Hlas je generován umělou inteligencí (OpenAI text-to-speech).</description>
-      <enclosure url="https://github.com/stallker54/daily-podcast/releases/download/daily-podcast/daily-investing-2026-08-07.mp3" length="6484224" type="audio/mpeg"/>
+      <enclosure url="https://github.com/stallker54/daily-podcast/releases/download/daily-podcast/daily-investing-2026-08-07.mp3" length="7200237" type="audio/mpeg"/>
       <guid isPermaLink="false">daily-investing-2026-08-07.mp3</guid>
-      <pubDate>Fri, 07 Aug 2026 13:09:09 +0200</pubDate>
-      <itunes:duration>405</itunes:duration>
+      <pubDate>Fri, 07 Aug 2026 16:17:59 +0200</pubDate>
+      <itunes:duration>1800</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
