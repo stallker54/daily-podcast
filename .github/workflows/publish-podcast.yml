@@ -20,9 +20,9 @@ env:
   PODCAST_DESCRIPTION: "Denní přehled novinek z investování do akcií, nemovitostí, kryptoměn a dalších aktiv, s důrazem na dlouhý horizont. Hlas je generován umělou inteligencí (OpenAI text-to-speech)."
   OPENAI_TTS_VOICE: "cedar"
   EPISODES_TO_KEEP: "7"
-  MAX_NARRATION_WORDS: "1200"
-  MAX_DURATION_SECONDS: "600"
-  MAX_SPEEDUP: "1.15"
+  MAX_NARRATION_WORDS: "4500"
+  MAX_DURATION_SECONDS: "2000"
+  MAX_SPEEDUP: "1.20"
   RELEASE_TAG: "daily-podcast"
   EPISODE_PREFIX: "daily-investing"
 
