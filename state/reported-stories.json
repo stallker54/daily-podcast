@@ -339,5 +339,304 @@
     "canonical_summary": "AppLovin shares fell ~19-21% after missing the midpoint of its own revenue guidance for the first time since IPO; analysts split on whether it is a buying opportunity.",
     "source_url": "https://seekingalpha.com/news/4626587-applovin-craters-20-after-q2-revenue-falls-short-of-expectations",
     "material_update_of": null
+  },
+  {
+    "event_id": "us-july-jobs-report-fed-repricing",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-07",
+    "category": "Macro, rates & inflation",
+    "entities": [
+      "Federal Reserve",
+      "US Bureau of Labor Statistics",
+      "US Treasury market"
+    ],
+    "event_type": "labor_market_data",
+    "canonical_summary": "US July nonfarm payrolls unexpectedly fell 23,000 with wage growth slowing to 3.2% y/y, sharply cutting September Fed rate-hike odds from ~55-58% to ~40-44% just a day after hawkish Fed commentary.",
+    "source_url": "https://www.cnbc.com/2026/08/07/odds-the-fed-hikes-in-september-tumble-following-big-july-jobs-miss.html",
+    "material_update_of": null
+  },
+  {
+    "event_id": "banxico-holds-650-second-meeting",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-06",
+    "category": "Macro, rates & inflation",
+    "entities": [
+      "Banco de México",
+      "Mexico"
+    ],
+    "event_type": "rate_decision",
+    "canonical_summary": "Banco de México held its overnight rate at 6.50% for a second straight meeting, pausing after 475bp of cumulative cuts since early 2024 to assess prior easing.",
+    "source_url": "https://www.focus-economics.com/countries/mexico/news/monetary-policy/mexico-central-bank-meeting-06-08-2026-central-bank-holds-rates-in-august/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "oklo-groves-reactor-first-criticality",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-06",
+    "category": "Public equities & broad markets",
+    "entities": [
+      "Oklo Inc.",
+      "US Department of Energy"
+    ],
+    "event_type": "structural_milestone",
+    "canonical_summary": "Oklo's Groves reactor achieved first criticality roughly 11 months after groundbreaking, the first DOE Reactor Pilot Program project to go from greenfield to critical, sending shares up over 10% despite an EPS miss.",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-08-06/us-says-oklo-s-small-nuclear-reactor-reaches-criticality",
+    "material_update_of": null
+  },
+  {
+    "event_id": "vistra-q2-earnings-power-demand",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-07",
+    "category": "Public equities & broad markets",
+    "entities": [
+      "Vistra Corp"
+    ],
+    "event_type": "earnings",
+    "canonical_summary": "Vistra reported Q2 GAAP net income of $305M and adjusted EBITDA of $1.77B (up from $1.35B y/y) as merchant power generators keep benefiting from AI data-center electricity demand.",
+    "source_url": "https://ir.vistracorp.com/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "russell-2000-crosses-3000",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-05",
+    "category": "Public equities & broad markets",
+    "entities": [
+      "Russell 2000 Index"
+    ],
+    "event_type": "sector_rotation",
+    "canonical_summary": "The Russell 2000 crossed 3,000 for the first time, with small caps up ~20.7% YTD versus the S&P 500's ~12.8%, extending a broadening market-leadership rotation.",
+    "source_url": "https://www.ibtimes.com.au/russell-2000-index-small-cap-rally-2026-1872366",
+    "material_update_of": null
+  },
+  {
+    "event_id": "us-30yr-mortgage-rate-2026-high",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-06",
+    "category": "Real estate",
+    "entities": [
+      "Freddie Mac",
+      "United States"
+    ],
+    "event_type": "rate_movement",
+    "canonical_summary": "Freddie Mac's 30-year fixed mortgage rate rose to 6.69%, a fifth straight weekly increase and the highest level of 2026, continuing to squeeze US housing affordability.",
+    "source_url": "https://www.globenewswire.com/news-release/2026/08/06/3340559/0/en/mortgage-rates-average-6-69.html",
+    "material_update_of": null
+  },
+  {
+    "event_id": "uwm-holdings-dividend-suspension-capital-raise",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-06",
+    "category": "Real estate",
+    "entities": [
+      "UWM Holdings",
+      "Oaktree Capital",
+      "Ishbia family"
+    ],
+    "event_type": "lender_distress",
+    "canonical_summary": "UWM Holdings posted a $451.9M Q2 net loss, suspended its dividend for the first time, and took a $2.05B dilutive preferred equity/warrant investment from Oaktree and the Ishbia family, with shares down 35-49%.",
+    "source_url": "https://www.cnbc.com/2026/08/06/united-wholesale-mortgage-plunges-40percent-suspends-dividend-raises-capital-.html",
+    "material_update_of": null
+  },
+  {
+    "event_id": "zillow-layoffs-soft-guidance",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-06",
+    "category": "Real estate",
+    "entities": [
+      "Zillow Group"
+    ],
+    "event_type": "earnings",
+    "canonical_summary": "Zillow cut 500 jobs (its second 2026 round) and reported Q2 revenue of $772M (+18% y/y) but gave soft forward guidance, sending shares down ~6% after hours.",
+    "source_url": "https://seekingalpha.com/news/4626644-zillow-stock-sinks-despite-q2-earnings-beat-on-layoffs-soft-revenue-guidance",
+    "material_update_of": null
+  },
+  {
+    "event_id": "nyc-dob-office-conversion-safety-sweep",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-05",
+    "category": "Real estate",
+    "entities": [
+      "NYC Department of Buildings",
+      "MetroLoft"
+    ],
+    "event_type": "regulatory_finding",
+    "canonical_summary": "NYC's DOB concluded a safety sweep of 180 office-to-residential conversion sites triggered by a July structural failure, finding violations at 38 sites but ruling the failure was not systemic to the conversion method.",
+    "source_url": "https://www.constructiondive.com/news/nyc-dob-wraps-safety-sweep-buildings-collapse-office-residential/827062/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "sunrise-southern-realty-trust-merger",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-06",
+    "category": "Real estate",
+    "entities": [
+      "Sunrise Realty Trust",
+      "Southern Realty Trust"
+    ],
+    "event_type": "merger",
+    "canonical_summary": "Commercial real estate lending REITs Sunrise Realty Trust and Southern Realty Trust announced a definitive stock merger, part of a wider 2026 wave of CRE lending REIT consolidation.",
+    "source_url": "https://www.globenewswire.com/news-release/2026/08/06/3340039/0/en/sunrise-realty-trust-inc-and-southern-realty-trust-inc-announce-definitive-merger-agreement.html",
+    "material_update_of": null
+  },
+  {
+    "event_id": "data-center-reit-outperformance-tritax-raise",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-07",
+    "category": "Real estate",
+    "entities": [
+      "Tritax Big Box",
+      "Digital Realty",
+      "Equinix"
+    ],
+    "event_type": "sector_performance",
+    "canonical_summary": "Data-center REITs continued outperforming the broader REIT index, with UK-listed Tritax Big Box announcing a ~£350M capital raise for London data-center projects backed by 235MW of secured power.",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-08-05/tritax-big-box-plans-capital-raise-to-fund-data-center-pipeline",
+    "material_update_of": null
+  },
+  {
+    "event_id": "ethereum-eip-8363-burn-proposal-backlash",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-07",
+    "category": "Cryptocurrency & digital assets",
+    "entities": [
+      "Ethereum Foundation",
+      "Stani Kulechov",
+      "SharpLink Gaming",
+      "ether.fi"
+    ],
+    "event_type": "protocol_governance",
+    "canonical_summary": "A draft Ethereum proposal (EIP-8363) to progressively burn validator staking rewards as staking ratio rises drew public opposition from Aave's founder, ether.fi's CEO, and corporate ETH treasury holder SharpLink Gaming.",
+    "source_url": "https://thedefiant.io/news/blockchains/eip-8363-staking-issuance-burn-reaction-kulechov-silagadze",
+    "material_update_of": null
+  },
+  {
+    "event_id": "circle-coinbase-usdc-deal-renewal-2029",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-07",
+    "category": "Cryptocurrency & digital assets",
+    "entities": [
+      "Circle",
+      "Coinbase",
+      "USDC"
+    ],
+    "event_type": "commercial_agreement",
+    "canonical_summary": "Circle renewed its USDC distribution agreement with Coinbase through 2029, resolving prior friction, while confirming it will not pay dividends and will reinvest toward AI-agent payment infrastructure instead.",
+    "source_url": "https://www.blockhead.co/2026/08/07/circle-renews-its-coinbase-deal-through-2029-betting-growth-on-ai-agents-instead-of-payouts/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "boerse-stuttgart-tradias-merger",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-05",
+    "category": "Cryptocurrency & digital assets",
+    "entities": [
+      "Boerse Stuttgart Digital",
+      "Tradias"
+    ],
+    "event_type": "institutional_infrastructure_merger",
+    "canonical_summary": "Boerse Stuttgart's crypto arm completed its merger with institutional trading firm Tradias, forming a ~300-employee European regulated digital-asset infrastructure provider serving major banks under MiCA.",
+    "source_url": "https://cointelegraph.com/news/boerse-stuttgart-digital-tradias-european-crypto-merger",
+    "material_update_of": null
+  },
+  {
+    "event_id": "hormuz-corridor-framework-new-conditions",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-07",
+    "category": "Alternative & real assets",
+    "entities": [
+      "Iran",
+      "Oman",
+      "United States"
+    ],
+    "event_type": "geopolitical_supply_chain",
+    "canonical_summary": "Iran and Oman reached a framework agreement on a phased Strait of Hormuz shipping corridor, but Iran then added fresh conditions (banning 'hostile' vessels, fines) before full reopening, pushing oil prices back up.",
+    "source_url": "https://www.aljazeera.com/news/2026/8/6/hormuz-deal-close-whats-the-latest-on-each-sides-positions",
+    "material_update_of": "sp500-record-high-hormuz-deescalation"
+  },
+  {
+    "event_id": "copper-global-squeeze-widens-reverses",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-08",
+    "category": "Alternative & real assets",
+    "entities": [
+      "LME",
+      "COMEX",
+      "United States",
+      "China"
+    ],
+    "event_type": "commodity_supply_shock",
+    "canonical_summary": "The copper squeeze widened from COMEX to the LME as US and Chinese buyers competed for physical metal, setting fresh records before a sharp profit-taking reversal by August 8.",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-08-07/copper-heads-for-record-close-in-london-on-tighter-global-market",
+    "material_update_of": "copper-tariff-supply-shock"
+  },
+  {
+    "event_id": "precious-metals-broad-rally-aug26",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-07",
+    "category": "Alternative & real assets",
+    "entities": [
+      "Gold",
+      "Silver",
+      "Platinum",
+      "SPDR Gold Shares"
+    ],
+    "event_type": "commodity_price_move",
+    "canonical_summary": "Gold, silver, and platinum all rallied to multi-month highs on Fed rate-cut bets after the weak jobs report, with major gold ETF inflows of over $600M in a single day and platinum breaking above $1,700.",
+    "source_url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-august-7-2026-gold-prices-continue-to-rise-even-after-july-jobs-report-misses-122102132.html",
+    "material_update_of": null
+  },
+  {
+    "event_id": "ecp-closes-8-1b-infrastructure-fund",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-06",
+    "category": "Alternative & real assets",
+    "entities": [
+      "Energy Capital Partners",
+      "Bridgepoint"
+    ],
+    "event_type": "fund_close",
+    "canonical_summary": "Energy Capital Partners closed its largest-ever infrastructure fund at $8.1B, over 80% larger than its predecessor, deploying into nuclear services, LNG, and multi-energy distribution.",
+    "source_url": "https://www.businesswire.com/news/home/20260806917963/en/Energy-Capital-Partners-ECP-Completes-$8.1-Billion-Fundraise-for-ECP-VI",
+    "material_update_of": null
+  },
+  {
+    "event_id": "trade-desk-crash-7yr-low-analyst-split",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-07",
+    "category": "Opportunistic short/medium-term situations",
+    "entities": [
+      "The Trade Desk"
+    ],
+    "event_type": "post_selloff_opportunity",
+    "canonical_summary": "The Trade Desk fell ~27-28% to a 7-year low after guiding to its first-ever revenue decline, splitting analysts sharply between deep target cuts and reiterated buy ratings citing an oversold valuation.",
+    "source_url": "https://finance.yahoo.com/media-advertising/articles/trade-desk-plunges-28-earnings-133152192.html",
+    "material_update_of": null
+  },
+  {
+    "event_id": "sandisk-selloff-despite-blowout-beat",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-06",
+    "category": "Opportunistic short/medium-term situations",
+    "entities": [
+      "Sandisk"
+    ],
+    "event_type": "post_selloff_opportunity",
+    "canonical_summary": "Sandisk fell ~10-13% despite a blowout quarter with data-center revenue more than doubling sequentially, purely on guidance modestly below consensus, which analysts called a disproportionate reaction.",
+    "source_url": "https://finance.yahoo.com/markets/stocks/article/why-the-sandisk-post-earnings-sell-off-looks-absurd-122521716.html",
+    "material_update_of": null
+  },
+  {
+    "event_id": "sezzle-selloff-despite-record-quarter",
+    "reported_date": "2026-08-08",
+    "event_date": "2026-08-07",
+    "category": "Opportunistic short/medium-term situations",
+    "entities": [
+      "Sezzle"
+    ],
+    "event_type": "post_selloff_opportunity",
+    "canonical_summary": "Sezzle fell ~22% despite record Q2 revenue growth of ~52% y/y, after guiding H2 growth to moderate to ~30% and flagging normalizing transaction yields.",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/sezzle-shares-tumble-despite-strong-123845759.html",
+    "material_update_of": null
   }
 ]
