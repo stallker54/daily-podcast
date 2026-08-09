@@ -638,5 +638,278 @@
     "canonical_summary": "Sezzle fell ~22% despite record Q2 revenue growth of ~52% y/y, after guiding H2 growth to moderate to ~30% and flagging normalizing transaction yields.",
     "source_url": "https://finance.yahoo.com/markets/stocks/articles/sezzle-shares-tumble-despite-strong-123845759.html",
     "material_update_of": null
+  },
+  {
+    "event_id": "china-july-cpi-slowdown-2026",
+    "reported_date": "2026-08-09",
+    "event_date": "2026-08-09",
+    "category": "Macro, rates & inflation",
+    "entities": [
+      "China",
+      "People's Bank of China",
+      "Yuan/Renminbi"
+    ],
+    "event_type": "inflation_data",
+    "canonical_summary": "China's July 2026 CPI rose just 0.5% year-on-year, below the 0.8% forecast and the slowest pace since January, while PPI slowed to 3.5% from 4.1%, deepening deflation concerns despite strong export growth.",
+    "source_url": "https://www.freemalaysiatoday.com/category/business/2026/08/09/china-s-inflation-slowed-in-july-below-forecast",
+    "material_update_of": null
+  },
+  {
+    "event_id": "berkshire-abel-buyback-alphabet-cash-deployment",
+    "reported_date": "2026-08-09",
+    "event_date": "2026-08-08",
+    "category": "Public equities & broad markets",
+    "entities": [
+      "Berkshire Hathaway",
+      "Greg Abel",
+      "Alphabet",
+      "Occidental Petroleum",
+      "Taylor Morrison"
+    ],
+    "event_type": "earnings",
+    "canonical_summary": "Berkshire Hathaway reported Q2 2026 net earnings more than doubling to $25.7 billion, resumed aggressive share buybacks ($4.5B, up from $235M in Q1), and became a net buyer of equities for the first time in 15 quarters, including a $10 billion addition to its Alphabet stake, as CEO Greg Abel began deploying the company's record cash hoard.",
+    "source_url": "https://www.benzinga.com/markets/equities/26/08/61061881/berkshire-hathaways-buyback-engine-roars-back-as-net-earnings-more-than-double-to-25-7-billion",
+    "material_update_of": null
+  },
+  {
+    "event_id": "atlassian-cloud-reacceleration-profitability",
+    "reported_date": "2026-08-09",
+    "event_date": "2026-08-06",
+    "category": "Public equities & broad markets",
+    "entities": [
+      "Atlassian"
+    ],
+    "event_type": "earnings",
+    "canonical_summary": "Atlassian shares surged roughly 30-36% after fiscal Q4 2026 results showed cloud revenue growth accelerating to 31% year over year, a return to GAAP operating profitability, and forward guidance above consensus.",
+    "source_url": "https://www.benzinga.com/markets/earnings/26/08/61025469/atlassian-stock-soars-on-q4-results-guidance-what-investors-need-to-know",
+    "material_update_of": null
+  },
+  {
+    "event_id": "twilio-guidance-raise-organic-growth-accel",
+    "reported_date": "2026-08-09",
+    "event_date": "2026-08-06",
+    "category": "Public equities & broad markets",
+    "entities": [
+      "Twilio"
+    ],
+    "event_type": "earnings",
+    "canonical_summary": "Twilio shares jumped roughly 17-28% after Q2 2026 results beat estimates and the company sharply raised full-year revenue growth guidance to 18-18.5% from a prior 14-15%, citing accelerating demand for its cloud communications and voice AI products.",
+    "source_url": "https://www.benzinga.com/trading-ideas/movers/26/08/61042961/twilio-stock-soars-after-strong-q2-results-and-guidance",
+    "material_update_of": null
+  },
+  {
+    "event_id": "spacex-insider-lockup-float-doubling",
+    "reported_date": "2026-08-09",
+    "event_date": "2026-08-06",
+    "category": "Public equities & broad markets",
+    "entities": [
+      "SpaceX"
+    ],
+    "event_type": "index_move",
+    "canonical_summary": "SpaceX's first post-IPO insider lockup expired on August 6, freeing roughly $123 billion worth of shares (about 911.5 million shares) for potential sale and more than doubling the company's public float from 4.9% to 11.8% of shares outstanding, with the stock rising rather than falling on the news.",
+    "source_url": "https://www.investing.com/news/stock-market-news/spacex-ipo-lockup-expiry-123b-in-shares-set-to-unlock-in-early-august-2026-93CH-4796311",
+    "material_update_of": null
+  },
+  {
+    "event_id": "sweden-apartment-prices-seasonal-drop",
+    "reported_date": "2026-08-09",
+    "event_date": "2026-08-07",
+    "category": "Real estate",
+    "entities": [
+      "Sweden",
+      "Svensk Mäklarstatistik",
+      "Stockholm",
+      "Gothenburg",
+      "Malmo"
+    ],
+    "event_type": "price_trend",
+    "canonical_summary": "Svensk Maklarstatistik data released August 7 showed Swedish apartment (bostadsratter) prices fell 1.5% in July, the steepest monthly drop in a year, while detached house prices rose 0.9%, with the 12-month rate still positive at 4.6% for apartments and 3.4% for houses.",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-08-07/sweden-apartment-prices-fall-the-most-in-a-year-on-seasonal-lull",
+    "material_update_of": null
+  },
+  {
+    "event_id": "cz-building-land-prices-outpace-mortgage-cost",
+    "reported_date": "2026-08-09",
+    "event_date": "2026-08-07",
+    "category": "Real estate",
+    "entities": [
+      "Czech Republic",
+      "Hyponamiru.cz",
+      "Swiss Life Hypoindex"
+    ],
+    "event_type": "price_trend",
+    "canonical_summary": "Czech residential building-plot prices reached CZK 2,615 per square meter in June 2026, up 7.3% year over year and 220% over the past decade, with listing-to-sale time nearly halving even as mortgage rates sit near 5.3%, according to a Hyponamiru.cz analysis published August 7.",
+    "source_url": "https://zpravy.kurzy.cz/870720-stavebni-pozemky-v-cesku-zdrazuji-ani-drazsi-hypoteky-poptavku-nezastavily/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "cee6-h1-2026-investment-rebound-czech-second",
+    "reported_date": "2026-08-09",
+    "event_date": "2026-08-03",
+    "category": "Real estate",
+    "entities": [
+      "Czech Republic",
+      "Poland",
+      "Hungary",
+      "Colliers",
+      "CEE-6"
+    ],
+    "event_type": "price_trend",
+    "canonical_summary": "Colliers data published August 3 showed CEE-6 commercial real estate investment volume rose to EUR 5.8 billion in H1 2026 from EUR 5.4 billion a year earlier, with Poland leading at over EUR 3 billion and the Czech Republic second at over EUR 1.4 billion, and residential/living allocation jumping to 19% of volume from 7%.",
+    "source_url": "https://eurobuildcee.com/en/news/36916-cee-real-estate-investment-goes-steadily-upward",
+    "material_update_of": null
+  },
+  {
+    "event_id": "aareal-bank-h1-2026-cre-lending-on-track",
+    "reported_date": "2026-08-09",
+    "event_date": "2026-08-06",
+    "category": "Real estate",
+    "entities": [
+      "Aareal Bank",
+      "Germany"
+    ],
+    "event_type": "earnings",
+    "canonical_summary": "German commercial real estate lender Aareal Bank reported H1 2026 results on August 6 with adjusted operating profit of EUR 208 million, keeping it on track for its roughly EUR 400 million full-year target despite a pullback in its US lending book.",
+    "source_url": "https://www.investing.com/news/company-news/aareal-bank-h1-2026-slides-on-track-for-targets-amid-us-pullback-93CH-4781279",
+    "material_update_of": null
+  },
+  {
+    "event_id": "ofac-shelbit-aban-tether-iran-sanctions",
+    "reported_date": "2026-08-09",
+    "event_date": "2026-08-07",
+    "category": "Cryptocurrency & digital assets",
+    "entities": [
+      "US Treasury OFAC",
+      "Shelbit Exchange",
+      "Aban Tether",
+      "Iran",
+      "IRGC"
+    ],
+    "event_type": "regulatory_change",
+    "canonical_summary": "The US Treasury's OFAC sanctioned Dubai-based Shelbit Exchange, Iran-based Aban Tether, their founder Siavash Kayvanpour, and four affiliated front companies for laundering crypto proceeds to Iran's Islamic Revolutionary Guard Corps as part of a roughly $4 billion sanctions-evasion network.",
+    "source_url": "https://www.coindesk.com/policy/2026/08/07/u-s-widens-iran-crypto-crackdown-with-sanctions-on-two-exchanges",
+    "material_update_of": null
+  },
+  {
+    "event_id": "bybit-sues-north-korea-lazarus-injunction",
+    "reported_date": "2026-08-09",
+    "event_date": "2026-08-07",
+    "category": "Cryptocurrency & digital assets",
+    "entities": [
+      "Bybit",
+      "North Korea",
+      "Lazarus Group",
+      "Reconnaissance General Bureau"
+    ],
+    "event_type": "legal_action",
+    "canonical_summary": "Bybit filed a civil lawsuit against North Korea, its Reconnaissance General Bureau, and the Lazarus Group over the February 2025 hack that stole $1.5 billion, and secured a US court's preliminary injunction freezing identified stolen assets.",
+    "source_url": "https://www.coindesk.com/policy/2026/08/07/bybit-sues-north-korea-and-lazarus-group-over-usd1-5-billion-hack-secures-asset-freeze",
+    "material_update_of": null
+  },
+  {
+    "event_id": "clarity-act-thune-cloture-september-vote",
+    "reported_date": "2026-08-09",
+    "event_date": "2026-08-08",
+    "category": "Cryptocurrency & digital assets",
+    "entities": [
+      "US Senate",
+      "John Thune",
+      "CLARITY Act"
+    ],
+    "event_type": "regulatory_change",
+    "canonical_summary": "Senate Majority Leader John Thune filed a motion to proceed and cloture on the CLARITY Act, setting up a procedural vote shortly after the Senate returns from recess in mid-September, keeping the bill's 2026 prospects alive.",
+    "source_url": "https://www.theblock.co/news/regulation/2026-08-08-majority-leader-thune-files-cloture-on-clarity-act-setting-up-sept-15-senate-vote-411211",
+    "material_update_of": "clarity-act-senate-delay"
+  },
+  {
+    "event_id": "cardano-ada-cme-futures-etf-eligibility",
+    "reported_date": "2026-08-09",
+    "event_date": "2026-08-09",
+    "category": "Cryptocurrency & digital assets",
+    "entities": [
+      "Cardano",
+      "ADA",
+      "CME Group",
+      "Grayscale",
+      "SEC"
+    ],
+    "event_type": "regulatory_change",
+    "canonical_summary": "Cardano's ADA token completed the SEC's required six-month window of regulated CME futures trading, unlocking eligibility for the streamlined 75-day spot ETF review process and clearing a key hurdle for Grayscale's pending ADA ETF application.",
+    "source_url": "https://en.coinotag.com/cardano-ada-cme-futures-reach-six-month-etf-milestone",
+    "material_update_of": null
+  },
+  {
+    "event_id": "ethereum-etf-strongest-weekly-inflow-4-months",
+    "reported_date": "2026-08-09",
+    "event_date": "2026-08-07",
+    "category": "Cryptocurrency & digital assets",
+    "entities": [
+      "Ethereum",
+      "spot Ethereum ETFs"
+    ],
+    "event_type": "etf_flow",
+    "canonical_summary": "US spot Ethereum ETFs pulled in roughly $245 million over the week ending August 7, their strongest weekly inflow in nearly four months, pushing cumulative net inflows to about $11.46 billion after a weak May and June.",
+    "source_url": "https://coingape.com/markets/ethereum-price-target-2k-as-etfs-record-biggest-weekly-inflow-in-nearly-four-months/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "china-pboc-gold-buying-july-accelerates",
+    "reported_date": "2026-08-09",
+    "event_date": "2026-08-07",
+    "category": "Alternative & real assets",
+    "entities": [
+      "People's Bank of China",
+      "China"
+    ],
+    "event_type": "central_bank_reserve_data",
+    "canonical_summary": "China's central bank added about 20 tonnes of gold to its reserves in July 2026, its biggest monthly addition since October 2023, extending an official buying streak to 21 consecutive months.",
+    "source_url": "https://investinglive.com/commodities/china-gold-buying-spree-continues-in-july-as-reserves-climb-for-a-21st-consecutive-month/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "trump-3bn-critical-minerals-battery-package",
+    "reported_date": "2026-08-09",
+    "event_date": "2026-08-07",
+    "category": "Alternative & real assets",
+    "entities": [
+      "Trump administration",
+      "US Export-Import Bank",
+      "Pentagon",
+      "5E Advanced Materials",
+      "Westwater Resources",
+      "Global Advanced Materials",
+      "Sila Nanotechnologies",
+      "Niron Magnetics"
+    ],
+    "event_type": "government_investment_program",
+    "canonical_summary": "The Trump administration announced roughly $3 billion in new US government financing for critical minerals and battery supply-chain projects, including Export-Import Bank loans for boron, graphite, tantalum and niobium, plus Pentagon-backed battery and scandium production.",
+    "source_url": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-announces-billions-in-new-deals-and-investments-to-power-american-mining/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "honeywell-aerospace-spinoff-crash",
+    "reported_date": "2026-08-09",
+    "event_date": "2026-08-06",
+    "category": "Opportunistic short/medium-term situations",
+    "entities": [
+      "Honeywell Aerospace (HONA)"
+    ],
+    "event_type": "post_selloff_opportunity",
+    "canonical_summary": "Honeywell Aerospace, newly spun off from Honeywell, fell roughly 20-23% after its first standalone quarterly report missed estimates and it slashed 2026 organic sales growth guidance to 4-5% from 7-9% on supply-chain constraints favoring OEM deliveries over higher-margin aftermarket sales.",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/honeywell-aerospace-shares-plunge-company-092847220.html",
+    "material_update_of": null
+  },
+  {
+    "event_id": "axon-margin-selloff-despite-beat-raise",
+    "reported_date": "2026-08-09",
+    "event_date": "2026-08-06",
+    "category": "Opportunistic short/medium-term situations",
+    "entities": [
+      "Axon Enterprise (AXON)"
+    ],
+    "event_type": "post_selloff_opportunity",
+    "canonical_summary": "Axon Enterprise fell about 12-14% despite beating Q2 revenue and EPS estimates and raising full-year revenue growth guidance to 32-34%, as investors focused on software gross margin compression from 78.9% to 75.1% and rising component costs.",
+    "source_url": "https://www.fool.com/investing/2026/08/06/axon-just-delivered-a-huge-beat-and-raise-so-why-i/",
+    "material_update_of": null
   }
 ]
