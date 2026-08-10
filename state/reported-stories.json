@@ -911,5 +911,310 @@
     "canonical_summary": "Axon Enterprise fell about 12-14% despite beating Q2 revenue and EPS estimates and raising full-year revenue growth guidance to 32-34%, as investors focused on software gross margin compression from 78.9% to 75.1% and rising component costs.",
     "source_url": "https://www.fool.com/investing/2026/08/06/axon-just-delivered-a-huge-beat-and-raise-so-why-i/",
     "material_update_of": null
+  },
+  {
+    "event_id": "trump-renews-cook-fed-removal-threat",
+    "reported_date": "2026-08-10",
+    "event_date": "2026-08-07",
+    "category": "Macro, rates & inflation",
+    "entities": [
+      "Federal Reserve",
+      "Lisa Cook",
+      "Donald Trump",
+      "Supreme Court"
+    ],
+    "event_type": "fed_independence_political_risk",
+    "canonical_summary": "Trump renewed his effort to remove Fed Governor Lisa Cook over unproven mortgage-fraud allegations, giving her until August 26 to respond, reviving the Fed-independence legal battle after the Supreme Court's narrow 5-4 ruling left the door open for a second removal attempt.",
+    "source_url": "https://fortune.com/2026/08/07/trump-fed-governor-lisa-cook-supreme-court-decision-central-bank-independence/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "fomc-hawkish-tilt-widens",
+    "reported_date": "2026-08-10",
+    "event_date": "2026-08-06",
+    "category": "Macro, rates & inflation",
+    "entities": [
+      "Federal Reserve",
+      "Kevin Warsh",
+      "FOMC"
+    ],
+    "event_type": "rate_decision",
+    "canonical_summary": "The Fed held rates at 3.50%-3.75%, but markets now price a September hike as most likely and 9 of 18 FOMC members pencil in at least one 2026 hike under new Chair Kevin Warsh, a sharp widening of the hawkish dissent reported the prior week.",
+    "source_url": "https://www.forbes.com/sites/simonmoore/2026/07/29/september-rate-hike-becomes-most-likely-outcome-according-to-markets/",
+    "material_update_of": "fed-hawkish-dissent-2026"
+  },
+  {
+    "event_id": "ai-capex-inflation-channel",
+    "reported_date": "2026-08-10",
+    "event_date": "2026-08-10",
+    "category": "Macro, rates & inflation",
+    "entities": [
+      "Federal Reserve",
+      "CPI",
+      "PPI",
+      "AI capex"
+    ],
+    "event_type": "inflation_data",
+    "canonical_summary": "Ahead of the week's CPI and PPI prints, software prices rose 14% YoY and electronic-component wholesale prices rose 28% YoY, a new AI-capex-driven inflation channel the Fed is reportedly divided over as potentially structural rather than transitory.",
+    "source_url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262090642-weekly-preview-us-cpi-ppi-data-market-focus-crwv-amat-earnings-reports-tradingkey",
+    "material_update_of": null
+  },
+  {
+    "event_id": "yen-intervention-size-quantified",
+    "reported_date": "2026-08-10",
+    "event_date": "2026-08-06",
+    "category": "Macro, rates & inflation",
+    "entities": [
+      "Japanese yen",
+      "Bank of Japan",
+      "Bank of America"
+    ],
+    "event_type": "currency_move",
+    "canonical_summary": "The scale of the prior week's coordinated US-Japan yen intervention became clear: Japan spent an estimated $34 billion buying yen after it hit 40-year lows, and Bank of America now forecasts the yen strengthening about 6% to ¥149/dollar by year-end.",
+    "source_url": "https://www.japantimes.co.jp/business/2026/08/06/economy/boa-yen-expectations/",
+    "material_update_of": "us-japan-yen-intervention-aug26"
+  },
+  {
+    "event_id": "barrick-q2-2026-fcf-buyback",
+    "reported_date": "2026-08-10",
+    "event_date": "2026-08-10",
+    "category": "Public equities & broad markets",
+    "entities": [
+      "Barrick Mining Corporation"
+    ],
+    "event_type": "earnings",
+    "canonical_summary": "Barrick Mining reported Q2 2026 revenue of $3.68B (+16% YoY) and EPS of $0.47, with H1 free cash flow up 107% YoY to $770M funding $268M of Q2 buybacks plus a $0.15/share dividend, shares up ~5%, reinforcing the capital-returns case for gold miners amid record gold prices.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0000756894/000119312526216613/d145525dex991.htm",
+    "material_update_of": null
+  },
+  {
+    "event_id": "spacex-starlink-12m-subscribers",
+    "reported_date": "2026-08-10",
+    "event_date": "2026-08-04",
+    "category": "Public equities & broad markets",
+    "entities": [
+      "SpaceX",
+      "Starlink",
+      "xAI"
+    ],
+    "event_type": "earnings",
+    "canonical_summary": "SpaceX's Q2 2026 earnings call disclosed Starlink has reached 12 million subscribers, doubling YoY, with management targeting $100B in annualized recurring revenue by year-end as the company is valued at $2.3 trillion post-IPO.",
+    "source_url": "https://www.cnbc.com/2026/08/04/spacex-spcx-earnings-live-updates-q2-2026.html",
+    "material_update_of": null
+  },
+  {
+    "event_id": "prologis-segro-acquisition",
+    "reported_date": "2026-08-10",
+    "event_date": "2026-08-03",
+    "category": "Real estate",
+    "entities": [
+      "Prologis",
+      "Segro plc"
+    ],
+    "event_type": "m_and_a",
+    "canonical_summary": "Prologis agreed to acquire UK logistics REIT Segro for roughly $18.8B, creating a combined $269B global logistics real estate platform and expanding Prologis' European footprint by 47%, with closing expected in H1 2027.",
+    "source_url": "https://commercialobserver.com/2026/08/prologis-segro-takeover-industrial/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "fannie-freddie-condo-lending-tightened",
+    "reported_date": "2026-08-10",
+    "event_date": "2026-08-03",
+    "category": "Real estate",
+    "entities": [
+      "Fannie Mae",
+      "Freddie Mac",
+      "FHFA"
+    ],
+    "event_type": "regulatory_change",
+    "canonical_summary": "New Fannie Mae/Freddie Mac condo lending guidelines took effect requiring full HOA/condo association financial reviews instead of the prior limited-review shortcut, expected to slow approvals and disqualify more condo mortgage applicants.",
+    "source_url": "https://therealdeal.com/miami/2026/08/05/fannie-mae-freddie-mac-tighten-condo-financing-rules/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "cmbs-office-delinquency-record-high",
+    "reported_date": "2026-08-10",
+    "event_date": "2026-08-07",
+    "category": "Real estate",
+    "entities": [
+      "CMBS",
+      "US office real estate"
+    ],
+    "event_type": "credit_distress",
+    "canonical_summary": "CMBS office delinquency rates hit roughly 11.7%-12.3%, surpassing the 2008 financial-crisis peak by about 1.6 points, while the broader CMBS delinquency rate stood near 7.35% in June, reflecting continued distress concentrated in offices, lodging and retail.",
+    "source_url": "https://www.multihousingnews.com/cmbs-delinquency-rates/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "prague-office-market-tight-2026",
+    "reported_date": "2026-08-10",
+    "event_date": "2026-08-06",
+    "category": "Real estate",
+    "entities": [
+      "Prague",
+      "Czech Republic"
+    ],
+    "event_type": "price_data",
+    "canonical_summary": "Prague's office market remains structurally tight in 2026, with vacancy near 5.9% (lowest since early 2020), only about 30,400 sqm of new vacant supply expected this year, and prime inner-city rents up roughly 10% YoY, with most new projects not delivering until 2028.",
+    "source_url": "https://www.property-magazine.eu/limited-supply-keeps-prague-office-market-tight-in-2026-73189.html",
+    "material_update_of": null
+  },
+  {
+    "event_id": "uk-housing-slowdown-july",
+    "reported_date": "2026-08-10",
+    "event_date": "2026-08-07",
+    "category": "Real estate",
+    "entities": [
+      "UK housing market"
+    ],
+    "event_type": "price_data",
+    "canonical_summary": "UK annual house price growth slowed to 1.8% in July from 2.2% in June, and asking prices for new listings fell 1.0%, the largest July drop in a decade, as the average 2-year fixed mortgage rate jumped to 5.63% from 4.83% in February amid Iran-war-driven rate pressure.",
+    "source_url": "https://www.savills.co.uk/research_articles/229130/393563-0/uk-housing-market-update---august-2026",
+    "material_update_of": null
+  },
+  {
+    "event_id": "bitcoin-bip110-fork-fails-two-blocks",
+    "reported_date": "2026-08-10",
+    "event_date": "2026-08-09",
+    "category": "Cryptocurrency & digital assets",
+    "entities": [
+      "Bitcoin",
+      "BIP-110",
+      "Ocean Mining",
+      "Foundry USA",
+      "AntPool",
+      "F2Pool"
+    ],
+    "event_type": "protocol_upgrade",
+    "canonical_summary": "The controversial BIP-110 Bitcoin soft-fork (a temporary ban on arbitrary data storage in transactions) triggered mandatory signaling at block 961,632 with under 1% miner support and split off into a breakaway chain that mined only two blocks before stalling, with roughly 99.85% of network hashpower staying on the main chain.",
+    "source_url": "https://www.coindesk.com/tech/2026/08/09/controversial-bitcoin-fork-bip-110-mines-two-blocks-then-stops",
+    "material_update_of": null
+  },
+  {
+    "event_id": "bitcoin-etf-record-weekly-inflow",
+    "reported_date": "2026-08-10",
+    "event_date": "2026-08-07",
+    "category": "Cryptocurrency & digital assets",
+    "entities": [
+      "Bitcoin",
+      "BlackRock",
+      "IBIT"
+    ],
+    "event_type": "etf_flow",
+    "canonical_summary": "US spot Bitcoin ETFs closed the week ended Aug 7 with $853.54M in net inflows, their largest weekly total since mid-April, with BlackRock's IBIT alone taking in $693M across a six-day streak with zero outflow days.",
+    "source_url": "https://www.coindesk.com/markets/2026/08/09/bitcoin-investors-pour-usd853-million-into-spot-etfs-blackrock-s-ibit-claims-the-bulk",
+    "material_update_of": "bitcoin-etf-inflow-trend-reversal"
+  },
+  {
+    "event_id": "bybit-injunction-granted",
+    "reported_date": "2026-08-10",
+    "event_date": "2026-08-07",
+    "category": "Cryptocurrency & digital assets",
+    "entities": [
+      "Bybit",
+      "Lazarus Group",
+      "North Korea"
+    ],
+    "event_type": "legal_action",
+    "canonical_summary": "A US court granted Bybit's request for a preliminary injunction freezing identified stolen assets tied to North Korea's Lazarus Group from the February 2025 $1.5B hack, moving the case from a filed lawsuit to an enforceable court order.",
+    "source_url": "https://www.htx.com/news/china-banned-bitcoin-then-one-of-its-highest-courts-just-rul-IvE86MsC/",
+    "material_update_of": "bybit-sues-north-korea-lazarus-injunction"
+  },
+  {
+    "event_id": "china-court-bitcoin-legal-property-ruling",
+    "reported_date": "2026-08-10",
+    "event_date": "2026-08-06",
+    "category": "Cryptocurrency & digital assets",
+    "entities": [
+      "China",
+      "Bitcoin",
+      "USDT"
+    ],
+    "event_type": "regulation",
+    "canonical_summary": "A Chinese court ruling confirmed Bitcoin and USDT hold legally protected property value under Chinese law even though the 2021 business trading ban remains in force, creating a legal contradiction that could affect asset-recovery and estate cases in China.",
+    "source_url": "https://www.altcoinbuzz.io/cryptocurrency-news/chinese-court-rules-bitcoin-and-crypto-as-legal-property/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "sugar-deficit-el-nino-2026",
+    "reported_date": "2026-08-10",
+    "event_date": "2026-08-09",
+    "category": "Alternative & real assets",
+    "entities": [
+      "ICE Sugar No. 11",
+      "London White Sugar",
+      "Czarnikow",
+      "Green Pool Commodity Specialists",
+      "StoneX",
+      "International Sugar Organization"
+    ],
+    "event_type": "commodity_move",
+    "canonical_summary": "NY sugar futures hit a 10-month high and London white sugar an 11-month high as analysts swung 2026/27 global sugar forecasts from surplus to deficit on a weak India monsoon and an expected strong El Nino threatening Brazil, India and Thailand output.",
+    "source_url": "https://www.foreignpolicyjournal.com/2026/08/09/global-sugar-futures-hit-multi-month-highs-as-production-deficits-deepen-across-key-growing-regions/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "houthi-aramco-attack-oil-surge",
+    "reported_date": "2026-08-10",
+    "event_date": "2026-08-09",
+    "category": "Alternative & real assets",
+    "entities": [
+      "Saudi Aramco",
+      "Houthis",
+      "Yemen",
+      "Iran",
+      "Oman",
+      "oil"
+    ],
+    "event_type": "geopolitical_supply_shock",
+    "canonical_summary": "Yemen's Houthis struck Saudi Aramco's Jazan refinery (400,000 bpd) with a drone, sparking a fire, two days after Saudi Arabia signed a defense pact with Turkey and Pakistan; combined with stalled Hormuz reopening talks, oil extended gains a third session, Brent near $84 and WTI near $79, up over 5% in three days.",
+    "source_url": "https://www.aljazeera.com/news/2026/8/9/saudi-arabia-says-fire-extinguished-at-aramco-facility-in-jizan",
+    "material_update_of": "hormuz-corridor-framework-new-conditions"
+  },
+  {
+    "event_id": "danantara-jbs-stake",
+    "reported_date": "2026-08-10",
+    "event_date": "2026-08-07",
+    "category": "Alternative & real assets",
+    "entities": [
+      "Danantara",
+      "JBS",
+      "Indonesia sovereign wealth fund"
+    ],
+    "event_type": "pe_deal",
+    "canonical_summary": "Indonesia's sovereign wealth fund Danantara took a 25% stake (potentially rising to 30%) in JBS's $8.1B Australasian meat operations, even as Fitch had already flagged Danantara's aggressive spending and governance concerns in a March 2026 negative outlook revision.",
+    "source_url": "https://www.techtimes.com/articles/323502/20260807/jbs-danantara-deal-embeds-indonesia-state-fund-81b-australasian-meat-operation.htm",
+    "material_update_of": null
+  },
+  {
+    "event_id": "pe-bankruptcies-zombie-funds",
+    "reported_date": "2026-08-10",
+    "event_date": "2026-08-01",
+    "category": "Alternative & real assets",
+    "entities": [
+      "private equity",
+      "bankruptcies",
+      "zombie funds"
+    ],
+    "event_type": "structural_risk",
+    "canonical_summary": "A report found PE-backed companies accounted for 50% of the largest ($1B+ liabilities) US corporate bankruptcies in H1 2026 despite PE representing only ~7% of the economy, while aging zombie funds unable to exit portfolio companies at claimed valuations were flagged as a growing systemic issue.",
+    "source_url": "https://pestakeholder.org/news/private-equity-2026-bankruptcies/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "vc-ai-infra-funding-roundup",
+    "reported_date": "2026-08-10",
+    "event_date": "2026-08-05",
+    "category": "Alternative & real assets",
+    "entities": [
+      "Valar Atomics",
+      "Hadrian",
+      "Sequoia Capital",
+      "venture capital"
+    ],
+    "event_type": "vc_trend",
+    "canonical_summary": "Valar Atomics raised a $1B Series B (at a $6B valuation) led by Sequoia to mass-produce modular nuclear reactors for AI data centers, while defense-tech firm Hadrian raised a $1.37B Series D (~$8B valuation), underscoring VC's pivot toward AI physical infrastructure.",
+    "source_url": "https://techstartups.com/2026/08/05/venture-capital-startup-funding-roundup-august-5-2026-a16z-blackrock-base10-franklin-templeton-general-catalyst-insight-partners-y-combinator-more/",
+    "material_update_of": null
   }
 ]
