@@ -1216,5 +1216,198 @@
     "canonical_summary": "Valar Atomics raised a $1B Series B (at a $6B valuation) led by Sequoia to mass-produce modular nuclear reactors for AI data centers, while defense-tech firm Hadrian raised a $1.37B Series D (~$8B valuation), underscoring VC's pivot toward AI physical infrastructure.",
     "source_url": "https://techstartups.com/2026/08/05/venture-capital-startup-funding-roundup-august-5-2026-a16z-blackrock-base10-franklin-templeton-general-catalyst-insight-partners-y-combinator-more/",
     "material_update_of": null
+  },
+  {
+    "event_id": "intel-15b-stock-offering-ai-capex",
+    "reported_date": "2026-08-11",
+    "event_date": "2026-08-10",
+    "category": "Public equities & broad markets",
+    "entities": [
+      "Intel",
+      "INTC"
+    ],
+    "event_type": "capital_raise",
+    "canonical_summary": "Intel announced a $15 billion underwritten common stock offering on August 10, 2026 — its first public share sale since its 1971 IPO — to fund AI-driven data-center growth and elevated capex, diluting shares by roughly 3% and sending the stock down 3-5%.",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-08-10/intel-selling-15-billion-in-common-stock-to-fund-growth",
+    "material_update_of": null
+  },
+  {
+    "event_id": "archer-boeing-wisk-aero-consolidation",
+    "reported_date": "2026-08-11",
+    "event_date": "2026-08-10",
+    "category": "Public equities & broad markets",
+    "entities": [
+      "Archer Aviation",
+      "Boeing",
+      "Wisk Aero"
+    ],
+    "event_type": "M&A",
+    "canonical_summary": "Archer Aviation agreed on August 10, 2026 to acquire Boeing's Wisk Aero, Insitu, and SkyGrid subsidiaries in a stock-and-warrant deal that gives Boeing a roughly 20% equity stake in Archer, consolidating autonomous-flight and eVTOL assets under one public company.",
+    "source_url": "https://investors.boeing.com/investors/news/press-release-details/2026/Archer-to-Shape-Physical-AI-Future-of-Aerospace-and-Defense-with-Acquisition-of-Boeings-Wisk-Aero-Insitu-and-SkyGrid-Subsidiaries-Boeing-to-Invest-in-Archer-and-Collaborate/default.aspx",
+    "material_update_of": null
+  },
+  {
+    "event_id": "cz-mortgage-rate-2yr-high",
+    "reported_date": "2026-08-11",
+    "event_date": "2026-08-10",
+    "category": "Real estate",
+    "entities": [
+      "Swiss Life Select",
+      "Czech mortgage market",
+      "Hypoindex"
+    ],
+    "event_type": "rate_move",
+    "canonical_summary": "The Swiss Life Hypoindex, the Czech benchmark for actual bank-offered mortgage rates, rose 0.10 percentage points to 5.42% in August 2026, its fifth consecutive monthly increase and the highest level in two years.",
+    "source_url": "https://www.hypoindex.cz/clanky/swiss-life-hypoindex-zdrazovani-hypotek-pokracuje-sazby-jsou-nejvyse-za-dva-roky/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "cz-cadastre-data-access-restriction",
+    "reported_date": "2026-08-11",
+    "event_date": "2026-08-10",
+    "category": "Real estate",
+    "entities": [
+      "Czech government",
+      "Czech Land Registry (Katastr nemovitostí)",
+      "Ministry of Regional Development"
+    ],
+    "event_type": "regulatory_change",
+    "canonical_summary": "The Czech cabinet prepared an amendment to the Real Estate Cadastre Act that will restrict public access to ownership, price and personal data (requiring a declared legal purpose and logged access, with fines up to CZK 1 million for misuse), taking effect from 2027, following a December 2025 change that already ended anonymous access to parcel details.",
+    "source_url": "https://www.echo24.cz/a/H8HDc/zpravy-domov-vlada-chysta-zasah-do-katastr-nemovitosti-mel-by-ztizit-pristup-k-osobni-udaje-vlastnici",
+    "material_update_of": null
+  },
+  {
+    "event_id": "strategy-msft-btc-sales-cash-buffer",
+    "reported_date": "2026-08-11",
+    "event_date": "2026-08-10",
+    "category": "Cryptocurrency & digital assets",
+    "entities": [
+      "Strategy",
+      "MicroStrategy",
+      "Michael Saylor",
+      "MSTR",
+      "STRC"
+    ],
+    "event_type": "institutional_adoption",
+    "canonical_summary": "Strategy sold another 1,690 BTC (~$108.6M) between Aug 3-9, 2026 to fund STRC preferred-stock dividends and buybacks, growing its USD cash reserve to $4.65 billion, continuing a multi-week pivot away from its pure buy-and-hold doctrine.",
+    "source_url": "https://www.theblock.co/news/business/2026-08-10-michael-saylor-strategy-bitcoin-treasury-411237",
+    "material_update_of": null
+  },
+  {
+    "event_id": "robinhood-uk-crypto-trading-bitstamp-launch",
+    "reported_date": "2026-08-11",
+    "event_date": "2026-08-10",
+    "category": "Cryptocurrency & digital assets",
+    "entities": [
+      "Robinhood",
+      "Bitstamp",
+      "FCA",
+      "United Kingdom"
+    ],
+    "event_type": "institutional_adoption",
+    "canonical_summary": "Robinhood launched crypto trading in its main UK app, routing trades through FCA-registered Bitstamp UK Ltd. and offering more than 50 tokens with zero trading, custody or account-maintenance fees.",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-08-10/robinhood-to-offer-access-to-crypto-trading-in-uk-from-this-week",
+    "material_update_of": null
+  },
+  {
+    "event_id": "h100-nsd-bitcoin-for-bitcoin-ma-europe",
+    "reported_date": "2026-08-11",
+    "event_date": "2026-08-10",
+    "category": "Cryptocurrency & digital assets",
+    "entities": [
+      "H100 Group",
+      "NSD AS",
+      "Bitcoin Group SE"
+    ],
+    "event_type": "institutional_adoption",
+    "canonical_summary": "Swedish-listed H100 Group completed an all-stock acquisition of Norwegian firm NSD AS, adding 2,455.37 BTC and lifting its treasury to 3,506.4 BTC, making it Europe's second-largest public Bitcoin treasury behind Bitcoin Group SE, in what is described as the first Bitcoin-for-Bitcoin public M&A deal.",
+    "source_url": "https://en.cryptonomist.ch/2026/08/10/h100-bitcoin-acquisition/",
+    "material_update_of": null
+  },
+  {
+    "event_id": "yen-intervention-effect-fades-aug10",
+    "reported_date": "2026-08-11",
+    "event_date": "2026-08-10",
+    "category": "Macro, rates & inflation",
+    "entities": [
+      "Bank of Japan",
+      "Japan Ministry of Finance",
+      "Federal Reserve",
+      "USD/JPY"
+    ],
+    "event_type": "currency_move",
+    "canonical_summary": "The yen weakened about 1% to ¥159.29/$ on Aug 10, 2026 — the worst G10 performance that day and the first breach of ¥159 since the late-July US-Japan coordinated intervention — erasing roughly half of the currency's post-intervention gains (from a low of ~¥155) amid growing market doubt the intervention's effect will last.",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-08-10/yen-underperforms-g-10-peers-as-intervention-boost-fades",
+    "material_update_of": "yen-intervention-size-quantified"
+  },
+  {
+    "event_id": "eurozone-sentix-confidence-positive-aug26",
+    "reported_date": "2026-08-11",
+    "event_date": "2026-08-10",
+    "category": "Macro, rates & inflation",
+    "entities": [
+      "Eurozone",
+      "Sentix"
+    ],
+    "event_type": "sentiment_data",
+    "canonical_summary": "The Sentix eurozone investor confidence index rose to +0.9 in August 2026 from -3.1 in July — its fourth consecutive monthly increase and highest reading since February, beating the -0.7 consensus — on stronger Q2 growth and an industrial-production recovery.",
+    "source_url": "https://www.investing.com/news/economic-indicators/euro-zone-investor-morale-turns-positive-in-august-sentix-survey-shows-4848055",
+    "material_update_of": null
+  },
+  {
+    "event_id": "blackstone-safe-harbor-marinemax-buyout",
+    "reported_date": "2026-08-11",
+    "event_date": "2026-08-09",
+    "category": "Alternative & real assets",
+    "entities": [
+      "Blackstone",
+      "Safe Harbor Marinas",
+      "MarineMax"
+    ],
+    "event_type": "pe_buyout",
+    "canonical_summary": "Blackstone-backed Safe Harbor Marinas signed a definitive agreement to acquire NYSE-listed MarineMax for $1.5 billion in an all-cash deal at $53.00/share (a 96% premium), taking the marina/boat-retail operator private.",
+    "source_url": "https://www.businesswire.com/news/home/20260809836761/en/MarineMax-Enters-into-Definitive-Agreement-to-be-Acquired-by-Blackstone-Infrastructure-Portfolio-Company-Safe-Harbor-in-a-$1.5-Billion-All-Cash-Transaction",
+    "material_update_of": null
+  },
+  {
+    "event_id": "ukraine-grain-export-collapse-2026-27",
+    "reported_date": "2026-08-11",
+    "event_date": "2026-08-07",
+    "category": "Alternative & real assets",
+    "entities": [
+      "Ukraine Ministry of Agriculture",
+      "Odesa ports",
+      "global wheat market"
+    ],
+    "event_type": "commodity_move",
+    "canonical_summary": "Ukraine's Agriculture Ministry projected 2026/27 agricultural exports will fall about 54% to 29.6 million tons (wheat exports down 53% to 8.3 million tons) after Russian strikes crippled Odesa port operations that normally handle ~90% of the country's grain exports, a shock still pushing wheat futures higher as of August 10.",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-08-07/ukraine-grain-exports-to-slump-after-russian-strikes-on-odesa",
+    "material_update_of": null
+  },
+  {
+    "event_id": "aaon-margin-cut-selloff-despite-record-beat",
+    "reported_date": "2026-08-11",
+    "event_date": "2026-08-10",
+    "category": "Opportunistic short/medium-term situations",
+    "entities": [
+      "AAON Inc."
+    ],
+    "event_type": "overreaction_selloff",
+    "canonical_summary": "AAON shares fell about 5.9% on Aug 10, 2026 despite Q2 revenue surging 101% YoY to $627M (beating estimates by ~28%) and EPS of $0.69 vs $0.48 expected, after the company cut its full-year gross margin guidance by 200bps (to 25-26% from 27-28%) on Memphis-facility capacity-ramp costs, even as it raised full-year revenue growth guidance to 55-60% from 40-45%.",
+    "source_url": "https://in.investing.com/news/stock-market-news/aaon-beats-q2-estimates-but-cuts-margin-outlook-on-costs-93CH-5548039",
+    "material_update_of": null
+  },
+  {
+    "event_id": "life360-guidance-selloff-despite-100m-user-milestone",
+    "reported_date": "2026-08-11",
+    "event_date": "2026-08-10",
+    "category": "Opportunistic short/medium-term situations",
+    "entities": [
+      "Life360"
+    ],
+    "event_type": "overreaction_selloff",
+    "canonical_summary": "Life360 shares dropped roughly 19.5% in after-hours trading on Aug 10, 2026 (from a regular-session close of $64.61 to about $52) despite Q2 revenue of about $159M beating consensus and the company crossing 100 million registered users for the first time, after FY26 revenue guidance of $650-685M came in only marginally below the roughly $671M consensus.",
+    "source_url": "https://www.marketbeat.com/stocks/NASDAQ/LIF/",
+    "material_update_of": null
   }
 ]
